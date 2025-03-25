@@ -75,7 +75,7 @@ const Add = () => {
 
           <div className="flex items-center mt-4">
             <label className="w-24">Photo</label>
-            <input type="text" name="photo" placeholder="Enter photo URL" className="input input-bordered flex-1 bg-white text-black" />
+            <input type="url" name="photo" placeholder="Enter photo URL" className="input input-bordered flex-1 bg-white text-black" />
           </div>
 
           <button className="btn w-full md:w-50 border-0 bg-white text-black mt-4 hover:bg-yellow-600">Add Coffee</button>
