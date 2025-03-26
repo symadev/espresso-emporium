@@ -8,6 +8,8 @@ import {
 } from "react-router-dom";
 import Update from './Component/Update.jsx';
 import Add from './Component/Add.jsx';
+import LogOut from './Component/LogOut.jsx';
+import Login from './Component/Login.jsx';
 const router = createBrowserRouter([
   {
     path: "/",
@@ -22,6 +24,14 @@ const router = createBrowserRouter([
   {
     path: "/add",
     element: <Add></Add>,
+  },
+  {
+    path: "/login",
+    element: <Login></Login>,
+  },
+  {
+    path: "/logout",
+    element: <LogOut></LogOut>,
   },
 ]);
 
